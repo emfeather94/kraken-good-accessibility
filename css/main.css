@@ -29,7 +29,7 @@ header {
   font-size: 1.125rem;
   font-style: normal;
   font-weight: normal;
-  padding: 1rem;
+  padding: 1rem 0 0;
 }
 
 header strong,
@@ -46,11 +46,18 @@ article div {
   padding: 1rem;
 }
 
+.target-1 {
+  padding: 0 1rem;
+}
+.target-2 {
+  background-color: #259f95;
+  padding: 1rem;
+}
+
 article header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #259f95;
   background-image: none;
   border-radius: 0 0 6px 6px;
   color: #fff;
