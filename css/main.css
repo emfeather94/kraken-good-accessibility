@@ -79,7 +79,7 @@ h2 {
 
 nav {
   background-color: #259f95;
-  display: flex;
+  display: inline-block;
 }
 
 nav ul {
