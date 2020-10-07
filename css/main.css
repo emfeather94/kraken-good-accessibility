@@ -55,6 +55,10 @@ article div {
   padding: 1rem;
 }
 
+.target-3 {
+  display: flex;
+}
+
 article header {
   display: flex;
   justify-content: space-between;
