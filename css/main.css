@@ -25,6 +25,7 @@ img {
 
 header {
   background-image: url("../images/anchors.svg");
+  background-color: #259f95;
   color: #fff;
   font-size: 1.125rem;
   font-style: normal;
@@ -36,27 +37,21 @@ header strong,
 header p {
   margin: 0;
   font-weight: normal;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
 }
 
 .by {
   font-style: italic;
 }
 
-article div {
+main div {
   padding: 1rem;
 }
 
-.target-1 {
-  padding: 0 1rem;
-}
-
-.target-2 {
+hgroup {
   background-color: #259f95;
-  padding: 1rem;
-}
-
-.target-3 {
-  display: flex;
+  padding: 0 1rem;
 }
 
 article header {
@@ -80,6 +75,11 @@ h2 {
   color: #fff;
   font-weight: normal;
   font-size: 1.75rem;
+}
+
+nav {
+  background-color: #259f95;
+  display: flex;
 }
 
 nav ul {
@@ -126,16 +126,16 @@ nav i {
   height: 100%;
 }
 
-article p {
+main p {
   margin: 0;
   text-indent: 1.3em;
 }
 
-article div :first-child {
+main div :first-child {
   text-indent: 0;
 }
 
-article div :first-child::first-line {
+main div :first-child::first-line {
   color: #1e7c74;
   font-style: italic;
 }
@@ -169,4 +169,5 @@ footer {
   padding: 1rem;
   background-image: url("../images/anchors.svg");
   color: #fff;
+  background-color: #259f95;
 }
