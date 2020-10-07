@@ -25,7 +25,7 @@ img {
 
 header {
   background-image: url("../images/anchors.svg");
-  background-color: #259f95;
+  background-color: #1e7c74;
   color: #fff;
   font-size: 1.125rem;
   font-style: normal;
@@ -55,12 +55,17 @@ hgroup {
 }
 
 article header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   background-image: none;
+  background-color: #259f95;
   border-radius: 0 0 6px 6px;
   color: #fff;
+  padding-bottom: 1rem;
+}
+
+article header div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 h1 {
@@ -79,7 +84,6 @@ h2 {
 
 nav {
   background-color: #259f95;
-  display: inline-block;
 }
 
 nav ul {
@@ -157,7 +161,7 @@ figcaption {
 }
 
 article footer {
-  background-color: #259f95;
+  background-color: #1e7c74;
   background-image: none;
   border-radius: 6px 6px 0 0;
   color: #fff;
@@ -169,5 +173,5 @@ footer {
   padding: 1rem;
   background-image: url("../images/anchors.svg");
   color: #fff;
-  background-color: #259f95;
+  background-color: #1e7c74;
 }
